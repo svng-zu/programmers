@@ -14,8 +14,5 @@ def solution(s):
         if tmp < 0 :
             return False
     
-    if tmp == 0 :
-        return True
-    else :
-        return False
+    return tmp == 0
   
